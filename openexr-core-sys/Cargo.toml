@@ -1,0 +1,13 @@
+[package]
+name = "openexr-core-sys"
+version = "0.1.0"
+authors = ["Anders Langlands <anderslanglands@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+bindgen = "0.58.1"
+
+[dependencies]
+thiserror = "1.0.26"

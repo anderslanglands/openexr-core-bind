@@ -1,0 +1,6 @@
+/target
+Cargo.lock
+.gdb_history
+/*.png
+/openexr-core/*.png
+/openexr-core/*.exr

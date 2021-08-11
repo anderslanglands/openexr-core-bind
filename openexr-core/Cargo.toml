@@ -1,0 +1,16 @@
+[package]
+name = "openexr-core"
+version = "0.1.0"
+authors = ["Anders Langlands <anderslanglands@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+openexr-core-sys = { path = "../openexr-core-sys" }
+semver = "1.0.3"
+imath-traits = "0.4.0"
+thiserror = "1.0.26"
+
+[dev-dependencies]
+png = "0.16.8"
