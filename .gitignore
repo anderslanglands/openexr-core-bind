@@ -4,3 +4,4 @@ Cargo.lock
 /*.png
 /openexr-core/*.png
 /openexr-core/*.exr
+/openexr-core-sys/openexr_wrapper.rs
